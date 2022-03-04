@@ -11,7 +11,7 @@ div.main {
     flex-direction: column;
 }
 
-img.ad {
+img.poster {
     width: 100%;
 }
 
@@ -24,16 +24,6 @@ div.msg {
     font-weight: bold;
     writing-mode: vertical-rl;
 }
-/* 
-div.msg {
-    display: inline-block;
-    border-radius: 15px;
-    padding: 5px 0;
-    margin-top: 80px;
-    text-align: center;
-    background-color: #8c6239;
-    width: 300px;
-} */
 
 div.block {
     display: flex;
