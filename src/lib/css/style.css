@@ -1,0 +1,62 @@
+body {
+    color: #fff;
+    margin: 0;
+    font-family: '游明朝', 'Yu Mincho', serif;
+}
+
+div.main {
+    background-color: #986690;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.ad {
+    width: 100%;
+}
+
+div.msg {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 0;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #8c6239;
+    width: 300px;
+}
+
+div.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+div.block-reverse {
+    flex-direction: row-reverse;
+}
+
+div.block > * {
+    margin: 0 20px;
+}
+
+img.block-img {
+    width: 40%;
+}
+
+div.block-desc {
+    writing-mode: vertical-rl;
+}
+
+div.block-desc-title {
+    font-size: 25px;
+}
+
+div.block-desc-txt {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+p.block-desc-txt-paragraph {
+    margin: 0 8px;
+}
