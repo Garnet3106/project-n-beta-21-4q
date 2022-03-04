@@ -16,6 +16,16 @@ img.ad {
 }
 
 div.msg {
+    border-radius: 15px;
+    font-size: 130%;
+    margin-top: 150px;
+    letter-spacing: .5em;
+    color: #ffcedb;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+}
+/* 
+div.msg {
     display: inline-block;
     border-radius: 15px;
     padding: 5px 0;
@@ -23,12 +33,12 @@ div.msg {
     text-align: center;
     background-color: #8c6239;
     width: 300px;
-}
+} */
 
 div.block {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
 }
 
@@ -41,7 +51,8 @@ div.block > * {
 }
 
 img.block-img {
-    width: 40%;
+    height: 20vw;
+    width: 30vw;
 }
 
 div.block-desc {
@@ -49,12 +60,13 @@ div.block-desc {
 }
 
 div.block-desc-title {
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 160%;
 }
 
 div.block-desc-txt {
+    letter-spacing: .1em;
     font-weight: lighter;
-    font-size: 15px;
 }
 
 p.block-desc-txt-paragraph {
