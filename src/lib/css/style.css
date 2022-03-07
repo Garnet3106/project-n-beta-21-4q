@@ -1,13 +1,17 @@
 body {
-    color: #fff;
-    margin: 0;
+    color: #ffffff;
     font-family: '游明朝', 'Yu Mincho', serif;
+    margin: 0;
+}
+
+img {
+    user-select: none;
 }
 
 div.main {
+    align-items: center;
     background-color: #986690;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -16,13 +20,18 @@ img.poster {
 }
 
 div.msg {
-    border-radius: 15px;
-    font-size: 130%;
-    margin-top: 150px;
-    letter-spacing: .5em;
     color: #ffcedb;
+    font-size: 130%;
     font-weight: bold;
+    letter-spacing: .5em;
+    margin-top: 150px;
+    text-shadow: 1px 1px 10px #ffcedbaa;
     writing-mode: vertical-rl;
+}
+
+span.msg-emphasized {
+    color: #ffffff;
+    text-shadow: 1px 1px 8px #ffffff;
 }
 
 div.block {
@@ -38,6 +47,7 @@ div.block-reverse {
 
 div.block > * {
     margin: 0 20px;
+    text-shadow: 1px 1px 10px #ffffff50;
 }
 
 img.block-img {
@@ -50,15 +60,68 @@ div.block-desc {
 }
 
 div.block-desc-title {
-    margin-left: 25px;
     font-size: 160%;
+    margin-left: 25px;
 }
 
 div.block-desc-txt {
-    letter-spacing: .1em;
     font-weight: lighter;
+    letter-spacing: .1em;
 }
 
 p.block-desc-txt-paragraph {
     margin: 0 8px;
+}
+
+div.buyarea {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0 100px;
+}
+
+div.buy-title {
+    align-items: center;
+    background-color: #ae72a4;
+    border-radius: 3px;
+    box-shadow: 2px 2px #d095c7;
+    display: flex;
+    font-size: 100%;
+    height: 30px;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    width: 200px;
+}
+
+div.buy {
+    background-color: #97598c;
+    border-radius: 3px;
+    display: flex;
+    gap: 50px;
+    padding: 45px 50px 30px;
+}
+
+div.buy-item {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.buy-item-title {
+    margin-left: 8px;
+    text-shadow: 1px 1px 8px #ffffff50;
+    writing-mode: vertical-rl;
+}
+
+img.buy-item-img {
+    height: 15vw;
+    width: 25vw;
+}
+
+div.footer {
+    background-color: #ae72a4;
+    font-size: 85%;
+    height: 50px;
+    text-align: center;
+    width: 100%;
 }
