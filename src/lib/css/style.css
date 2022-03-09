@@ -114,15 +114,22 @@ div.buy-item-title {
 }
 
 img.buy-item-img {
+    cursor: pointer;
     height: 15vw;
     width: 25vw;
+    transition: background-color 100ms;
+    border-radius: 10px;
+}
+
+img.buy-item-img:hover {
+    background-color: #dddddd30;
 }
 
 div.footer {
     background-color: #ae72a4;
     font-size: 80%;
-    text-align: center;
     padding: 5px 0;
+    text-align: center;
     width: 100%;
 }
 
